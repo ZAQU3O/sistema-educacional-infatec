@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif ;
+    /* border: 1px solid; */
+}
+
+/* Container */
+
+#container, body, html {
+    
+}
+
+
+/* Header */
+
+#cabecalho {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(128, 128, 128, 0.192);
+    box-shadow: 1px 1px 10px rgba(194, 194, 194, 0.452);
+}
+
+#central-direcao {
+    line-height: 120px;
+    color: chocolate;
+}
+
+#central-direcao {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+}
+
+/* Formulário Login */
+
+#formulario-login {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    border-radius: 7px;
+    background-color: rgba(197, 197, 197, 0.247);
+}
+
+.label {
+    display: block;
+    margin-left: 30px;
+    margin-right: 35px;
+    line-height: 30px;
+}
+
+.input {
+    width: 87%;
+    display: block;
+    margin-left: 30px;
+    line-height: 40px;
+    border-radius: 7px;
+}
+
+#container-formulario {
+    margin-top: 50px;
+}
+
+#checkbox-remember {
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 35px;
+}
+
+#op-erros  {
+    text-align: right;
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#butao-entrar {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 35px;
+    margin-top: 20px;
+}
+
+#butao-entrar button {
+    width: 70px;
+    padding: 10px;
+}
+
+/* Footer */
+
+#rodape {
+    
+    background-color: rgba(196, 193, 193, 0.192);
+    height: 50px;
+}
