@@ -124,4 +124,5 @@ html, body {
     background-color: rgba(196, 193, 193, 0.192);
     text-align: center;
     line-height: 50px;
+    border-top: 1px rgba(128, 128, 128, 0.452);
 }
