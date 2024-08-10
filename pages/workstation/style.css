@@ -10,6 +10,15 @@
 
 /* Container */
 
+html, body {
+    height: 100%;
+}
+
+#container {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 50px; 
+}
 
 /* Header */
 
@@ -17,7 +26,7 @@
     width: 100%;
     height: 120px;
     background-color: rgba(128, 128, 128, 0.192);
-    box-shadow: 1px 1px 10px rgba(194, 194, 194, 0.452);
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.452);
 }
 
 #central-direcao {
@@ -33,6 +42,10 @@
 
 /* Formulário Login */
 
+#formulario {
+    box-sizing: border-box;
+}
+
 #formulario-login {
     width: 500px;
     height: 350px;
@@ -41,6 +54,7 @@
     margin-bottom: 80px;
     border-radius: 7px;
     background-color: rgba(197, 197, 197, 0.247);
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.452);
 }
 
 .label {
@@ -56,6 +70,8 @@
     margin-left: 30px;
     line-height: 40px;
     border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.452);
 }
 
 .label-input {
@@ -63,6 +79,7 @@
 }
 
 #checkbox-remember {
+    font-size: 16px;
     margin-top: 5px;
     margin-left: 30px;
     margin-right: 35px;
@@ -88,6 +105,9 @@
     border-radius: 7px;
     background-color: chocolate;
     color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #butao-entrar button:hover {
@@ -97,8 +117,11 @@
 /* Footer */
 
 #rodape {
-    text-align: center;
-    background-color: rgba(196, 193, 193, 0.192);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     height: 50px;
+    background-color: rgba(196, 193, 193, 0.192);
+    text-align: center;
     line-height: 50px;
 }
