@@ -1,2 +1,2 @@
-# sistema-educacional-infatec
+# Sistema Educacional-Infatec
  sistema educacional
