@@ -223,6 +223,13 @@ html, body {
     color: white;
 }
 
+/* Direção */
+
+#direcao-container {
+    border: 1px solid;
+    
+}
+
 /* Footer */
 
 #rodape {
