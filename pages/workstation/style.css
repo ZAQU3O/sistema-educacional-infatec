@@ -226,8 +226,98 @@ html, body {
 /* Direção */
 
 #direcao-container {
-    border: 1px solid;
+    height: 100%;
+}
+
+#direcao-container form {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 7px;
+    background-color: rgba(197, 197, 197, 0.247);
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.452);
+    margin-bottom: 30px;
+}
+
+#formulario-direcao input {
+    height: 40px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.452);
+}
+
+#alterar-senha {
+    width: 170px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+}
+
+#alterar {
+    width: 70px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: chocolate;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#alterar-senha a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+#alterar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+#alterar:hover, #alterar-senha:hover {
+    background-color: #f7a56a;
+}
+
+#div-btn-alterar {
+    text-align: center;
+}
+
+#div-novos-campos label {
+    /* border: 1px solid; */
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Pagina de Confirmação */
+
+#confirmacao {
     
+    width: 400px;
+    padding: 20px;
+    line-height: 5px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 7px;
+    background-color: rgba(197, 197, 197, 0.247);
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.452);
+    margin-top: 130px;
+}
+
+#confirmacao span {
+    line-height: 40px;
+    font-size: larger;
+
 }
 
 /* Footer */

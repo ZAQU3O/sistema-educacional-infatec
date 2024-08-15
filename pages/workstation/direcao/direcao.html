@@ -27,28 +27,34 @@
         
         <main>
             <div id="direcao-container">
-                <form action="">
-                    <title>Alterar Direção</title>
+                <form action="" id="formulario-direcao">
+                    <legend style="font-weight: bolder;">Alterar Direção</legend>
+                    <br>
                     <label for="nome">Nome </label>
-                    <input type="text" name="nome" id="nome">
+                    <input type="text" name="nome" id="nome" style="width: 70%;">
                     <br>
 
                     <label for="cpf">CPF </label>
-                    <input type="number" name="cpf" id="cpf">
+                    <input type="text" name="cpf" id="cpf">
                     <br>
 
-                    <label for="data-nascimento">Data de Nasciemnto </label>
+                    <label for="data-nascimento">Data de Nascimento </label>
                     <input type="date" name="data-nascimento" id="data-nascimento">
                     <br>
 
                     <label for="email">Email </label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" style="width: 70%;">
                     <br>
 
-                    <button>Alterar Senha</button>
+                    <button id="alterar-senha" type="button">Alterar Senha</button>
                     <br>
                     
-                    <button>Alterar</button>
+                    <div id="div-novos-campos"></div>
+                    <br>
+
+                    <div id="div-btn-alterar">
+                        <a href="confirma-alteracao.html"><button id="alterar" type="button">Alterar</button></a>
+                    </div>
                 </form>
             </div>
         </main>
